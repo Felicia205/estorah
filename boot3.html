@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link rel="stylesheet" href="male.html">
+    <link rel="stylesheet" href="female.html">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+   
+    .nav-brand a{
+        margin-left: -40px;
+        font-size: 35px;
+    }
+    .navbar{
+        background-color: orangered;
+        
+    }
+    .nav-link {
+        color: white;
+    }
+    .welcome{
+        overflow: hidden;
+        margin-top: 100px;
+        background-color: burlywood;
+        
+    }
+    .h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+    .spam{
+        color: orangered;
+    }
+    p{
+        font-size: 15px;
+    }
+    .btn{
+        color: #fff;
+        background-color: orangered;
+        padding-left: 10px;
+    }
+    .fa-solid{
+        font-size: 15px;
+    }
+   
+    .btn a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn a:hover{
+        color: orangered;
+    }
+    
+        .go{
+        position: absolute;
+        background-color: orangered;
+        color: #fff !important;
+        top: 0;
+        bottom: 0;
+        left: 650px;
+        display: none;
+        transition: all 0.2s;
+        width: 300px
+    }
+    
+    .h2{
+        margin-top: 100px;
+    }
+    
+    .img1{
+        max-width: 100%;
+    }
+    
+   
+    .product p i{
+        text-align: center;
+    }
+    .fa-star{
+        color: orange;
+        margin-left: 10px;
+    }
+    .call{
+        overflow: hidden;
+       background-color: aquamarine;
+    }
+    .call2{
+        overflow: hidden;
+        background-image: url(images/call1.jpeg);
+        opacity: 0.8;
+        background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 1350px;
+       height: 450px;
+    }
+    .h6{
+        font-size: 50px;
+        font-weight: 700;
+       margin-left: 100px;
+       margin-top: 40px;
+       color: rgb(109, 42, 18);
+    }
+   .btn2{
+        color: #fff;
+       margin-left: 100px;
+       
+   }
+   footer{
+    overflow: hidden;
+       background-color: orangered;
+       color: #fff;
+       
+      
+      
+   }
+   ul li{
+       list-style-type: none;
+   }
+  p input{
+    border: transparent;
+    border-radius: 2px;
+    padding-left: 5px;
+   }
+  
+
+   .about{
+        overflow: hidden;
+    }
+    .product{
+        overflow: hidden;
+    }
+    @media (max-width: 909px){
+    .go{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        height: 100vh;
+        top: -100%;
+        left: -100%;
+    }
+    nav li{
+        margin: 50px 0;
+        color: #fff;
+        background-color: orangered;
+    }
+}
+ 
+    
+   
+    
+</style>
+<body>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+       
+            <img src="images/boot3remove.png" alt="" width="150px" height="100">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-brand">
+                    <a class="nav-link" href="boot3.html">ESTORAH</a>
+                </li>
+            </ul>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about estorah.html">About</a>
+              </li>
+               <li class="nav-item"> 
+                  <a class="nav-link" href="product.html">Product</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="male.html">Male</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="female.html">Female</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Login & signup<i class="fa-solid fa-shopping-cart fa-"></i></a>
+               </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+              <div></div>
+              </nav>
+
+<div class="go" id="go">
+    <label id="icon2">
+        <i class="fa-solid fa-close" style="font-size: 30px; color:#fff" id="fa2"></i>
+    </label>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+       
+            <img src="images/boot3remove.png" alt="" width="150px" height="100">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-brand">
+                    <a class="nav-link" href="boot3.html">ESTORAH</a>
+                </li>
+            </ul>
+        
+          <button class="navbar-toggler" id="toggl" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about estorah.html">About</a>
+              </li>
+               <li class="nav-item"> 
+                  <a class="nav-link" href="product.html">Product</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="male.html">Male</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="female.html">Female</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Login & signup<i class="fa-solid fa-shopping-cart fa-"></i></a>
+               </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+              <div></div>
+              </nav>
+</div>
+    <section class="welcome">
+        <div class="container">
+           <div class="row">
+               <div class="col col-lg-6 col-md-6 col-12">
+                 <div class="h1">
+                     <h1>Welcome to a multipurpose website for <span class="spam">Online Shopping</span></h1>
+                     <p>we are at your sevice,anytime,anywhere...</p>
+                   
+                     <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-shopping-cart fa-"></i>Shop</button>
+                 </div>       
+             </div>
+                <div class="col col-lg-6 col-md-6 col-12">
+                   <div class="img1">
+                       <img src="images/bg1 (1).png" alt="">
+                  </div>
+     </div>
+       
+    </section>
+       <section class="About">
+           <div class="container2">
+               <div class="row">
+                   <div class="col col-lg-6 col-md-6 col-12">
+                       <div class="img2">
+                           <img src="images/bg1 (2).png" alt="">
+                       </div>
+                    </div>
+               <div class="col col-lg-6 col-md-6 col-12">
+                   <div class="h2">
+                       <h2>About Us</h2>
+                       <p>ESTORAH is a webite used for online shopping in which you can get all what you want either accessories,clothes,shoes and many more....</p>
+                       <button class="btn btn-outline-light" type="submit"><a href="about estorah.html">Read more...</a></button>
+                   </div>
+                 </div>
+               </div>
+           </div>
+       </section>
+        <section class="product">
+            <div class="container container3">
+                <div class="row row3">
+                    <div class="col col-lg-3 col-md-6 col-sm-6">
+                        <div class="">
+                            <img src="images/149814_1551354461.jpg" alt="" width="200px" height="200px">
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        </div>
+                   </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (4).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                   </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (14).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (11).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/92910_1610145653.jpg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (8).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (9).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (13).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                           <img src="images/images (10).jpeg" alt="" width="200px" height="200px">
+                           <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (15).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/images (7).jpeg" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                  </div>
+                  <div class="col col-lg-3 col-md-6 col-sm-6">
+                      <div class="">
+                          <img src="images/Untitled-design-2022-05-27T135811.524.png" alt="" width="200px" height="200px">
+                          <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                      </div>
+                 </div>
+               </div>
+          </div>
+        </section>
+
+     <section class="call">
+            <div class="container4">
+                <div class="row row-4">
+                    <div class="col col-lg-4 col-md-4 col-4">
+                       <div class="order p-5">
+                            <img src="images/or1-removebg-preview - Copy.png" alt="">
+                         </div>
+                     </div> 
+                      <div class="col col-lg-4 col-md-4 col-4">
+                            <div class="payments p-5 ">
+                                <img src="images/or2-removebg-preview - Copy.png" alt="">
+                             </div>
+                      </div>
+                      <div class="col col-lg-4 col-md-4 col-4">
+                             <div class="delivery p-1">
+                                 <img src="images/or3-removebg-preview - Copy.png" alt="">
+                           </div>
+                      </div>
+             </div>   
+          </div>
+     </section>
+     <section class="call2">
+        <div class="container5">
+            <div class="row row-5">
+                <div class="col col-lg-4 col-md-6 col-12">
+                   <div class="header">
+                       <h6 class="h6">
+                           DO YOU NEED A <br> QUALITY <br> PRODUCT? 
+                       </h6>
+                      <div class="btn2">
+                        <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-shopping-cart fa-"></i>Shop now</button>
+                      </div>
+
+                   </div>
+                    
+                </div>
+
+            </div>
+             
+        </div>
+     </section>
+
+     <div class="footer">
+         <footer>
+             <div class="row">
+                <div class="col col-lg-3 col-md-3 col-sm-6">
+                    <ul class="address">
+                        <header>
+                            <img src="images/bg1 (2).png" alt="" width="40%" class="img3">
+                        </header>
+                        <li>UNDERG,OGBOMOSHO</li>
+                        <li>+234-80-000-0000</li>
+                    </ul>
+                     </div>
+                 <div class="col col-lg-3 col-md-3 col-sm-6">
+                    
+                    <ul class="pro">
+                        <header>PRODUCTS</header>
+                        <li>Bags</li>
+                        <li>shoes</li>
+                        <li>shades</li>
+                        <li>wrist-watch</li>
+                    </ul>
+                 </div>
+                 <div class="col col-lg-3 col-md-3 col-sm-6">
+
+                  <ul class="sex">
+                    <header>SEX</header>
+                    <li>Male</li>
+                    <li>Female</li>
+                  </ul>
+                 </div>
+                 <div class="col col-lg-3 col-md-3 col-sm-6">
+                    <header>Subscribe to our newsletter</header>
+                    <form action="subscribe" class="for">
+                        <p><input type="text" placeholder="Full name"></p>
+                        <p><input type="email" placeholder="@gmail.com"></p>
+                        <button class="btn btn-outline-light" type="submit">Subscribe</button>
+                    </form>
+                 </div>
+                 
+             </div>
+          </footer>
+     </div>
+
+
+    <script src="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+    <script>
+        var goEl = document.getElementById("go");
+        var fa = document.getElementById("fa");
+
+        toggl.onclick = function(){
+           goEl.style.left = "350px"
+       }
+        fa2.onclick = function(){
+           goEl.style.left = "650px"
+       }
+
+      </script>
+</body>
+</html>
